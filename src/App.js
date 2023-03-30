@@ -102,7 +102,7 @@ const App = () => {
 
                 {/* pages  */}
                 <Route path="/orders" element={<Orders />} />
-                <Route path="/drivers" element={<Drivers />} />
+                <Route path="/driversList" element={<Drivers data={data} />} />
                 <Route path="/customers" element={<Customers />} />
 
                 {/* apps  */}

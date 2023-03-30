@@ -468,8 +468,8 @@ export const customersGrid = [
 
 export const employeesGrid = [
   {
-    headerText: "Employee",
-    width: "150",
+    headerText: "Driver",
+    width: "100",
     template: gridEmployeeProfile,
     textAlign: "Center",
   },

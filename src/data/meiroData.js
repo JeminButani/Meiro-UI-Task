@@ -29,10 +29,10 @@ export const links = [
   },
 
   {
-    title: "Pages",
+    title: "Driver",
     links: [
       {
-        name: "drivers",
+        name: "driversList",
         icon: <IoMdContacts />,
       },
       //   {
@@ -125,5 +125,51 @@ export const earningData = [
     iconColor: "rgb(0, 194, 146)",
     iconBg: "rgb(0, 194, 146)",
     pcColor: "red-600",
+  },
+];
+
+export const driverGrid = [
+  { field: "srno", headerText: "Sr no.", width: "100", textAlign: "Center" },
+
+  { field: "did", headerText: "Driver Id", width: "150", textAlign: "Center" },
+  {
+    field: "name",
+    headerText: "Name",
+    width: "200",
+    textAlign: "start",
+  },
+  {
+    field: "dlno",
+    headerText: "License No.",
+    width: "150",
+    textAlign: "Center",
+  },
+
+  {
+    field: "bdate",
+    headerText: "Birth Date",
+    width: "120",
+    format: "yMd",
+    textAlign: "Center",
+  },
+
+  {
+    field: "working",
+    headerText: "Work Status",
+    width: "120",
+    textAlign: "Center",
+  },
+
+  {
+    field: "trips",
+    headerText: "Total Trips",
+    width: "120",
+    textAlign: "Center",
+  },
+  {
+    field: "revenue",
+    headerText: "Total Revenue",
+    width: "120",
+    textAlign: "Center",
   },
 ];
